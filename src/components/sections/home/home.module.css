@@ -1,0 +1,545 @@
+.section {
+  position: relative;
+  container-type: inline-size;
+  min-height: 100svh;
+  overflow: clip;
+  isolation: isolate;
+  background: #252525;
+  color: #f9f9f2;
+  --display-size: min(7.407407cqw, 11.459266svh, 163px);
+  --body-size: clamp(16px, min(1.388889cqw, 2.148612svh), 31px);
+}
+.heading {
+  font-family: var(--font-geist-pixel-square), monospace;
+  font-weight: 500;
+  font-size: var(--display-size);
+  line-height: 1;
+  letter-spacing: 0;
+}
+.copy {
+  font-family: var(--font-geist-mono), monospace;
+  font-size: var(--body-size);
+  font-weight: 400;
+  line-height: 1.4;
+}
+.copy strong {
+  font-weight: 700;
+}
+.actions {
+  gap: 27px;
+}
+.header {
+  line-height: 0;
+  padding-top: 10.474485svh;
+  margin-left: 7.986111%;
+}
+.brandLink {
+  display: inline-flex;
+  color: #f9f9f2;
+}
+.brand {
+  height: 2.719907cqw;
+  color: #f9f9f2;
+}
+.heroContent {
+  margin: 14.413608svh 0 0 7.87037%;
+  width: 58.506944%;
+}
+.heroHeadline {
+  width: min(100%, calc(var(--display-size) * 7.898438));
+  position: relative;
+}
+.heroGlow {
+  position: absolute;
+  inset: 0;
+  font-family: var(--font-geist-pixel-square), monospace;
+  font-weight: 500;
+  font-size: var(--display-size);
+  line-height: 1;
+  background: linear-gradient(90deg, #fff, #ae00ff);
+  background-clip: text;
+  color: transparent;
+  filter: blur(25px);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+.heroCopy {
+  margin-top: 4.923903svh;
+  margin-bottom: 2.954342svh;
+  font-size: clamp(16px, min(1.157407cqw, 1.79051svh), 24px);
+  line-height: 1.5;
+  width: max-content;
+  max-width: 86vw;
+}
+.heroDots,
+.roadmapDots {
+  position: absolute;
+  width: min(21.875cqw, 33.840645svh);
+  z-index: -1;
+}
+.heroDots {
+  right: 7.407407%;
+  bottom: 13.070725svh;
+}
+.section [data-artwork] img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.cms {
+  background: #f9f9f2;
+  color: #000;
+  color-scheme: light;
+}
+.cmsHeading {
+  padding-top: 14.413608svh;
+  margin-left: 7.986111%;
+  width: min(91.550926cqw, calc(var(--display-size) * 12.359375));
+  position: relative;
+  z-index: 2;
+}
+.blueSquare {
+  position: absolute;
+  left: calc(7.986111% + var(--display-size) * 7.289063);
+  top: 31.871083svh;
+  width: min(4.803241cqw, 7.430618svh);
+  aspect-ratio: 1;
+  background: #0009ff;
+}
+.cmsContent {
+  position: relative;
+  z-index: 2;
+  margin: 10.295435svh 0 0 8.449074%;
+  width: 35.532407%;
+}
+.cmsTitle {
+  gap: 1.50463cqw;
+}
+.cmsTitle h3 {
+  font-family: var(--font-geist-pixel-square), monospace;
+  font-weight: 500;
+  font-size: clamp(24px, min(1.851852cqw, 2.864816svh), 36px);
+  line-height: 1;
+}
+.cmsIcon {
+  width: min(2.199074cqw, 3.402059svh);
+  flex: none;
+}
+.cmsCopy {
+  font-size: clamp(16px, min(1.157407cqw, 1.79051svh), 24px);
+  margin: 2.685765svh 0;
+}
+.cmsCopy p + p {
+  margin-top: 2.506714svh;
+}
+.cmsBot {
+  position: absolute;
+  z-index: 0;
+  right: -9.43287%;
+  bottom: -23.097583svh;
+  width: min(54.166667cqw, 83.796svh);
+}
+.cmsCallout,
+.hostedCallout {
+  position: absolute;
+  z-index: 3;
+  top: 86.302596svh;
+}
+.cmsCallout {
+  left: 41.666667%;
+  width: min(16.637731cqw, 25.738585svh);
+}
+.calloutBackdrop {
+  width: 100%;
+}
+.cmsCallout p {
+  position: absolute;
+  top: 2.148613svh;
+  left: min(3.84838cqw, 5.953447svh);
+  font-family: var(--font-geist-pixel-square), monospace;
+  font-size: min(1.388889cqw, 2.148613svh);
+  line-height: 1.4;
+  color: #fff;
+  white-space: nowrap;
+}
+.modularityHeading {
+  position: relative;
+  z-index: 2;
+  padding-top: 16.651746svh;
+  margin-left: 7.581019%;
+  width: min(84.837963cqw, calc(var(--display-size) * 11.453125));
+}
+.modularityCopy {
+  position: relative;
+  z-index: 2;
+  margin: 6.893465svh 0 0 7.581019%;
+  width: 37.326389%;
+}
+.modulesArt {
+  position: absolute;
+  width: min(40.798611cqw, 63.115488svh);
+  left: 53.06713%;
+  bottom: 12.891674svh;
+}
+.adaptability {
+  background: #0009ff;
+}
+.adaptabilityHeading {
+  position: relative;
+  z-index: 2;
+  padding-top: 16.562221svh;
+  margin-left: auto;
+  margin-right: 11.631944%;
+  width: min(69.502315cqw, calc(var(--display-size) * 9.382813));
+  text-align: right;
+}
+.adaptabilityCopy {
+  position: relative;
+  z-index: 2;
+  margin: -0.358101svh 0 0 24.074074%;
+  width: 39.293981%;
+}
+.changeGrid {
+  position: absolute;
+  z-index: -1;
+  left: 5.208333%;
+  bottom: -4.476276svh;
+  width: min(62.5cqw, 96.687556svh);
+}
+.modularLabel {
+  position: absolute;
+  right: 11.631944%;
+  bottom: 16.948254svh;
+  width: min(17.821528cqw, 27.570815svh);
+}
+.modularLabelArt {
+  width: 100%;
+}
+.openSource {
+  background: #a9acff;
+  color: #000;
+  color-scheme: light;
+}
+.openSourceContent {
+  position: relative;
+  z-index: 2;
+  padding-top: 18.531782svh;
+  margin-left: 10.069444%;
+  width: 52.083333%;
+}
+.openSourceCopy {
+  margin: 4.297225svh 0;
+}
+.openSourceArt {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 105.998209svh;
+}
+.hostedCallout {
+  left: 39.641204%;
+  width: min(22.887731cqw, 35.407341svh);
+}
+.hostedAction {
+  position: absolute;
+  left: min(3.472222cqw, 5.371531svh);
+  top: 1.700985svh;
+  color: #fff;
+}
+.hostedAction button {
+  font-family: var(--font-geist-pixel-square), monospace;
+  font-size: min(1.388889cqw, 2.148613svh);
+  line-height: 1.4;
+  text-decoration: none;
+}
+.hostedAction span[aria-hidden='true'] {
+  display: none;
+}
+.roadmapContent {
+  position: relative;
+  z-index: 2;
+  padding-top: 23.634736svh;
+  margin-left: 11.284722%;
+  width: 63.888889%;
+}
+.roadmapContent .heading {
+  max-width: min(100%, calc(var(--display-size) * 8.625));
+}
+.roadmapContent .copy {
+  margin: 4.297225svh 0;
+  width: max-content;
+  max-width: 80vw;
+}
+.roadmapDots {
+  right: 6.770833%;
+  bottom: 9.847807svh;
+}
+.gradientFinish {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.gradientGlow {
+  position: absolute;
+  bottom: -1.092212svh;
+  left: -0.706019%;
+  width: 101.412037%;
+  mix-blend-mode: hard-light;
+}
+
+@media (max-width: 1100px) {
+  .section {
+    --body-size: 16px;
+  }
+  .heroCopy,
+  .cmsCopy {
+    font-size: 16px;
+  }
+  .cmsContent {
+    width: 42%;
+  }
+  .cmsCopy p + p {
+    margin-top: 12px;
+  }
+  .cmsTitle h3 {
+    font-size: 24px;
+  }
+  .modularityCopy {
+    width: 42%;
+  }
+  .openSourceCopy {
+    font-size: 16px;
+  }
+  .roadmapContent .copy {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .section {
+    min-height: 100svh;
+    --display-size: clamp(40px, 7.8vw, 60px);
+    --body-size: 16px;
+    padding: 64px 24px;
+    overflow: clip;
+  }
+  .heading {
+    overflow-wrap: normal;
+  }
+  .header {
+    padding: 0;
+    margin: 0;
+  }
+  .brand {
+    height: 32px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 96px;
+  }
+  .heroHeadline {
+    width: 100%;
+  }
+  .heroContent {
+    width: 100%;
+    margin: auto 0;
+    padding: 48px 0;
+  }
+  .heroCopy {
+    width: auto;
+    max-width: none;
+    margin: 32px 0 24px;
+  }
+  .heroDots {
+    left: auto;
+    right: 24px;
+    top: auto;
+    bottom: 32px;
+    width: 140px;
+  }
+  .heroGlow {
+    display: none;
+  }
+  .cmsHeading,
+  .modularityHeading,
+  .adaptabilityHeading {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-right: 0;
+  }
+  .cmsHeading {
+    padding-right: 8px;
+  }
+  .blueSquare {
+    position: relative;
+    display: block;
+    left: auto;
+    top: auto;
+    margin-top: 16px;
+    width: 28px;
+  }
+  .cmsContent {
+    width: 100%;
+    margin: 40px 0 0;
+  }
+  .cmsTitle {
+    gap: 14px;
+  }
+  .cmsIcon {
+    width: 32px;
+  }
+  .cmsCopy {
+    margin: 20px 0;
+    max-width: 420px;
+  }
+  .cmsCopy p + p {
+    margin-top: 22px;
+  }
+  .cmsBot {
+    right: auto;
+    bottom: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 110%;
+    margin: 40px 0 -30%;
+  }
+  .cmsCallout {
+    top: auto;
+    bottom: 48px;
+    left: 24px;
+    width: 220px;
+  }
+  .cmsCallout p {
+    top: 17px;
+    left: 51px;
+    font-size: 18px;
+  }
+  .modularity {
+    display: flex;
+    flex-direction: column;
+  }
+  .modularityCopy {
+    width: 100%;
+    max-width: 470px;
+    margin: 32px 0 0;
+  }
+  .modulesArt {
+    bottom: auto;
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 85%;
+    max-width: 460px;
+    margin: auto auto 0;
+    padding-top: 32px;
+  }
+  .adaptability {
+    padding-bottom: 300px;
+  }
+  .adaptabilityHeading {
+    text-align: right;
+  }
+  .adaptabilityCopy {
+    width: 100%;
+    max-width: 450px;
+    margin: 32px 0 0;
+  }
+  .changeGrid {
+    top: auto;
+    left: 0;
+    bottom: -48px;
+    width: 86%;
+    max-width: 540px;
+  }
+  .modularLabel {
+    left: auto;
+    right: 24px;
+    top: auto;
+    bottom: 110px;
+    width: 150px;
+  }
+  .openSource {
+    padding-bottom: 320px;
+  }
+  .openSourceContent {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .openSourceCopy {
+    margin: 24px 0;
+    max-width: 470px;
+  }
+  .openSourceArt {
+    top: auto;
+    right: auto;
+    left: -35%;
+    bottom: -120px;
+    width: 145%;
+  }
+  .hostedCallout {
+    top: auto;
+    bottom: 48px;
+    left: 24px;
+    width: 300px;
+    max-width: calc(100% - 48px);
+  }
+  .hostedAction {
+    top: 8px;
+    left: 38px;
+  }
+  .hostedAction button {
+    font-size: 17px;
+  }
+  .roadmap {
+    display: flex;
+    align-items: center;
+    padding-bottom: 160px;
+  }
+  .roadmapContent {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .roadmapContent .heading {
+    max-width: 100%;
+  }
+  .roadmapContent .copy {
+    width: auto;
+    max-width: none;
+    margin: 32px 0 24px;
+  }
+  .roadmapDots {
+    top: auto;
+    left: auto;
+    bottom: 48px;
+    right: 24px;
+    width: 160px;
+  }
+  .gradientFinish {
+    min-height: 3px;
+  }
+  .gradientGlow {
+    display: none;
+  }
+}
+@media (max-width: 374px) {
+  .section {
+    padding-left: 20px;
+    padding-right: 20px;
+    --display-size: 36px;
+  }
+  .actions {
+    gap: 12px;
+  }
+  .hostedAction {
+    left: 32px;
+  }
+  .hostedAction button {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,17 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="213.085" height="268.21" viewBox="0 0 213.085 268.21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Rectangle 12" filter="url(#filter0_f_0_253)" style="mix-blend-mode:hard-light">
+<path d="M68.4102 88.9659C72.3289 70.8709 86.536 56.7807 104.663 53.0117C138.012 46.0777 167.38 75.9204 159.912 109.154L144.025 179.85C139.248 201.106 120.374 216.21 98.5884 216.21C68.8987 216.21 46.79 188.8 53.0739 159.783L68.4102 88.9659Z" fill="url(#paint0_radial_0_253)"/>
+<path d="M104.459 52.0328C138.52 44.9507 168.515 75.4303 160.887 109.374L145.001 180.07C140.122 201.782 120.842 217.209 98.5886 217.21C68.2615 217.21 45.6777 189.212 52.0964 159.572L67.4324 88.7545C71.4346 70.2734 85.9453 55.8823 104.459 52.0328Z" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<filter id="filter0_f_0_253" x="-9.53674e-07" y="0" width="213.085" height="268.21" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_0_253"/>
+</filter>
+<radialGradient id="paint0_radial_0_253" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(108.354 127.21) rotate(90) scale(89 67.5)">
+<stop stop-color="#A9ACFF"/>
+<stop offset="1" stop-color="#F9F9F2"/>
+</radialGradient>
+</defs>
+</svg>

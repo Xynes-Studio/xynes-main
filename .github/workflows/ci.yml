@@ -1,0 +1,46 @@
+name: Homepage quality
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: xynes-front-end/xynes-main
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          path: xynes-front-end/xynes-main
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: Xynes-Studio/lumia-ds
+          ref: 9f6d12d2c3a1137c892364c6a5127e4bf29e1f79
+          path: xynes-front-end/lumia-ds
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: '24'
+      - run: corepack enable
+      - name: Prepare sibling Lumia libraries
+        working-directory: xynes-front-end/lumia-ds
+        run: |
+          corepack pnpm install --frozen-lockfile
+          corepack pnpm --filter @lumia-ui/components... --filter @lumia-ui/theme... build
+      - run: corepack pnpm install --frozen-lockfile
+      - run: corepack pnpm typecheck
+      - run: corepack pnpm lint
+      - run: corepack pnpm format:check
+      - run: corepack pnpm test:coverage
+      - run: corepack pnpm build
+      - run: corepack pnpm exec playwright install --with-deps chromium
+      - run: corepack pnpm test:e2e
+        env:
+          PLAYWRIGHT_CHANNEL: chromium
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: homepage-evidence
+          path: |
+            xynes-front-end/xynes-main/docs/verification
+            xynes-front-end/xynes-main/coverage
+            xynes-front-end/xynes-main/playwright-report

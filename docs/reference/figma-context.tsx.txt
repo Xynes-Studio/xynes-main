@@ -1,0 +1,506 @@
+const imgRectangle46 = "[downloaded locally; see asset manifest]";
+const imgRectangle47 = "[downloaded locally; see asset manifest]";
+const imgVector = "[downloaded locally; see asset manifest]";
+const imgAkarIconsTriangleRightFill = "[downloaded locally; see asset manifest]";
+import { ShaderEffect } from "./lib/custom-effect-runtime/index";
+import { setup as setupCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758, render as renderCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758, manifest as manifestCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758 } from "./lib/custom-effects/CodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758";
+const imgVector15 = "[downloaded locally; see asset manifest]";
+const imgVector12 = "[downloaded locally; see asset manifest]";
+const imgVector13 = "[downloaded locally; see asset manifest]";
+const imgVector4 = "[downloaded locally; see asset manifest]";
+const imgVector2 = "[downloaded locally; see asset manifest]";
+const imgVector9 = "[downloaded locally; see asset manifest]";
+const imgVector14 = "[downloaded locally; see asset manifest]";
+const imgVector7 = "[downloaded locally; see asset manifest]";
+const imgMaskGroup = "[downloaded locally; see asset manifest]";
+const imgVector6 = "[downloaded locally; see asset manifest]";
+const imgVector11 = "[downloaded locally; see asset manifest]";
+const imgMaskGroup1 = "[downloaded locally; see asset manifest]";
+const imgVector8 = "[downloaded locally; see asset manifest]";
+const imgAkarIconsTriangleRightFill1 = "[downloaded locally; see asset manifest]";
+const imgRectangle14 = "[downloaded locally; see asset manifest]";
+const imgGroup10 = "[downloaded locally; see asset manifest]";
+const imgVector1 = "[downloaded locally; see asset manifest]";
+const imgCiAddPlusCircle = "[downloaded locally; see asset manifest]";
+const imgEllipse1 = "[downloaded locally; see asset manifest]";
+const imgGroup2 = "[downloaded locally; see asset manifest]";
+const imgDinkieIconsCursorArrowFilled = "[downloaded locally; see asset manifest]";
+const imgXynes = "[downloaded locally; see asset manifest]";
+const imgRectangle3 = "[downloaded locally; see asset manifest]";
+const imgRectangle6 = "[downloaded locally; see asset manifest]";
+const imgRectangle8 = "[downloaded locally; see asset manifest]";
+const imgRectangle13 = "[downloaded locally; see asset manifest]";
+const imgRectangle4 = "[downloaded locally; see asset manifest]";
+const imgRectangle7 = "[downloaded locally; see asset manifest]";
+const imgRectangle9 = "[downloaded locally; see asset manifest]";
+const imgRectangle12 = "[downloaded locally; see asset manifest]";
+const imgVector3 = "[downloaded locally; see asset manifest]";
+const imgRectangle15 = "[downloaded locally; see asset manifest]";
+
+function MacBookPro166({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[#252525] h-[1117px] overflow-clip relative w-[1728px]"} data-node-id="2024:6562" data-name="MacBook Pro 16' - 6">
+      <div className="absolute contents left-0 top-[1111px]" data-node-id="2024:6387">
+        <div className="absolute h-[6px] left-0 top-[1111px] w-[1728px]" data-node-id="2024:6381">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle46} />
+        </div>
+        <div className="absolute h-[6px] left-0 mix-blend-hard-light top-[1111px] w-[1728px]" data-node-id="2024:6385">
+          <div className="absolute inset-[-203.33%_-0.71%]">
+            <img alt="" className="block max-w-none size-full" src={imgRectangle47} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[85px] left-[1233px] top-[922px] w-[378px]" data-node-id="2024:6379" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[48px] items-start left-[195px] top-[264px] w-[1104px]" data-node-id="2024:6396">
+        <p className="[word-break:break-word] font-['Geist_Pixel:Regular'] leading-none min-w-full not-italic relative shrink-0 text-[#f9f9f2] text-[128px] w-[min-content]" data-node-id="2024:6378">{`We're building the rest`}</p>
+        <div className="[word-break:break-word] font-['Geist_Mono:Regular'] font-normal leading-[0] relative shrink-0 text-[#f9f9f2] text-[24px] whitespace-nowrap" data-node-id="2024:6384">
+          <p className="leading-[1.4] mb-0">Slowly enough to make it useful.</p>
+          <p className="leading-[1.4] mb-0">Xynes is becoming a connected set of tools for running a business.</p>
+          <p className="leading-[1.4] mb-0">CMS is ready.</p>
+          <p className="leading-[1.4] mb-0">More is coming.</p>
+          <p className="leading-[1.4] mb-0">We could put twelve greyed-out product cards here.</p>
+          <p className="leading-[1.4]">{`We won't.`}</p>
+        </div>
+        <div className="content-stretch flex gap-[27px] items-center relative shrink-0" data-node-id="2024:6388" data-name="herro Buttons">
+          <div className="bg-[#0009ff] content-stretch flex items-center justify-center px-[10px] py-[5px] relative rounded-[5px] shrink-0" data-node-id="2024:6389" data-name="hero-button">
+            <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[24px] not-italic relative shrink-0 text-[#f9f9f2] text-[14px] whitespace-nowrap" data-node-id="2024:6390">
+              Reach Out
+            </p>
+          </div>
+          <div className="content-stretch flex items-center relative shrink-0" data-node-id="2024:6391" data-name="heo-button2">
+            <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Inter:Medium'] font-medium leading-[24px] not-italic relative shrink-0 text-[#f9f9f2] text-[14px] underline whitespace-nowrap" data-node-id="2024:6392">{`See what we're building`}</p>
+            <div className="relative shrink-0 size-[24px]" data-node-id="2024:6393" data-name="akar-icons:triangle-right-fill">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsTriangleRightFill} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function MacBookPro165({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[#a9acff] h-[1117px] overflow-clip relative w-[1728px]"} data-node-id="2024:6527" data-name="MacBook Pro 16' - 5">
+      <div className="absolute h-[2262px] left-[544px] top-[-112px] w-[1602px]" data-node-id="2024:6358">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector12} />
+      </div>
+      <div className="absolute h-[1508px] left-[816px] top-[51px] w-[1068px]" data-node-id="2024:6359">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector13} />
+      </div>
+      <ShaderEffect className="absolute blur-[2px] left-[942px] mix-blend-multiply top-[-40px]" data-node-id="2021:6321" shaders={[{ setup: setupCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758, render: renderCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758, params: { algorithm: "Bayer 16x16", monoColor: { r: 1, g: 1, b: 1, a: 1 }, contrast: 1, levels: 4, mono: false, brightness: 103, pixelSize: 2 }, manifest: manifestCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758 }]}>
+        <div className="contents relative">
+          <div className="absolute h-[286.64px] left-[1350.01px] mix-blend-multiply top-[-40px] w-[227.53px]" data-node-id="2021:6322">
+            <div className="absolute inset-[-0.35%_-0.44%_-0.31%_-0.44%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector4} />
+            </div>
+          </div>
+          <div className="absolute h-[1151.492px] left-[942px] mix-blend-multiply top-[186.11px] w-[816px]" data-node-id="2021:6323">
+            <div className="absolute inset-[-0.17%_-0.25%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector2} />
+            </div>
+          </div>
+          <div className="absolute h-[1151.492px] left-[942px] mix-blend-multiply top-[186.11px] w-[816px]" data-node-id="2021:6324">
+            <div className="absolute inset-[-0.17%_-0.25%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector9} />
+            </div>
+          </div>
+          <div className="absolute h-[1151.492px] left-[942px] mix-blend-multiply top-[186.11px] w-[816px]" data-node-id="2021:6325">
+            <div className="absolute inset-[-0.17%_-0.25%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector14} />
+            </div>
+          </div>
+          <div className="absolute h-[1072.058px] left-[1140.6px] mix-blend-multiply top-[240.67px] w-[606.298px]" data-node-id="2021:6326">
+            <div className="absolute inset-[-0.19%_-0.33%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector7} />
+            </div>
+          </div>
+          <div className="absolute h-[1072.058px] left-[1140.6px] mix-blend-multiply top-[240.67px] w-[606.298px]" data-node-id="2021:6327">
+            <div className="absolute inset-[-0.19%_-0.33%]">
+              <img alt="" className="block max-w-none size-full" height="1076.066" src={imgVector15} width="610.298" />
+            </div>
+          </div>
+          <div className="absolute h-[1072.058px] left-[1140.6px] mix-blend-multiply top-[240.67px] w-[606.298px]" data-node-id="2021:6328" data-name="Mask group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup} />
+          </div>
+          <div className="absolute h-[129.238px] left-[1443.49px] mix-blend-multiply top-[761.59px] w-[36.221px]" data-node-id="2021:6331">
+            <div className="absolute inset-[-0.77%_-2.76%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector6} />
+            </div>
+          </div>
+          <div className="absolute h-[1072.576px] left-[1156.2px] mix-blend-multiply top-[238.14px] w-[346.826px]" data-node-id="2021:6332">
+            <div className="absolute inset-[-2.8%_-8.65%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector11} />
+            </div>
+          </div>
+          <div className="absolute h-[1072.058px] left-[1140.6px] mix-blend-multiply top-[240.67px] w-[606.298px]" data-node-id="2021:6333" data-name="Mask group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMaskGroup1} />
+          </div>
+          <div className="absolute h-[1060.497px] left-[1399.31px] mix-blend-multiply top-[239.84px] w-[112.168px]" data-node-id="2021:6339">
+            <div className="absolute inset-[0_-0.79%_0_-0.9%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector8} />
+            </div>
+          </div>
+        </div>
+      </ShaderEffect>
+      <div className="absolute content-stretch flex flex-col gap-[48px] items-start left-[174px] top-[207px] w-[900px]" data-node-id="2024:6372">
+        <p className="[word-break:break-word] font-['Geist_Pixel:Regular'] leading-none min-w-full not-italic relative shrink-0 text-[128px] text-black w-[min-content]" data-node-id="2014:6208">
+          Open source
+        </p>
+        <div className="[word-break:break-word] font-['Geist_Mono:Regular'] font-normal h-[169px] leading-[0] min-w-full relative shrink-0 text-[24px] text-black w-[min-content]" data-node-id="2024:6357">
+          <p className="mb-0">
+            <span className="leading-[1.4]">{`Because `}</span>
+            <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">“trust me bro”</span>
+            <span className="leading-[1.4]">{` is not a security model.`}</span>
+          </p>
+          <p>
+            <span className="leading-[1.4]">{`See the `}</span>
+            <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">code</span>
+            <span className="leading-[1.4]">
+              .<br aria-hidden />
+            </span>
+            <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">Host</span>
+            <span className="leading-[1.4]">
+              {` it yourself.`}
+              <br aria-hidden />
+              {`Own your `}
+            </span>
+            <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">data</span>
+            <span className="leading-[1.4]">
+              .<br aria-hidden />
+            </span>
+            <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">Change</span>
+            <span className="leading-[1.4]">{` what annoys you.`}</span>
+          </p>
+        </div>
+        <div className="content-stretch flex items-center relative shrink-0" data-node-id="2024:6367" data-name="heo-button2">
+          <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Inter:Medium'] font-medium leading-[24px] not-italic relative shrink-0 text-[14px] text-black underline whitespace-nowrap" data-node-id="2024:6368">
+            See our code
+          </p>
+          <div className="relative shrink-0 size-[24px]" data-node-id="2024:6369" data-name="akar-icons:triangle-right-fill">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsTriangleRightFill1} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[685px] top-[964px]" data-node-id="2024:6373">
+        <div className="absolute h-[82px] left-[685px] top-[964px] w-[395.5px]" data-node-id="2024:6374">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle14} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Geist_Pixel:Square'] leading-[1.4] left-[calc(50%-119px)] not-italic text-[24px] text-white top-[988px] whitespace-nowrap" data-node-id="2024:6375">
+          Or use our hosted services
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function MacBookPro164({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[#0009ff] h-[1117px] overflow-clip relative w-[1728px]"} data-node-id="2024:6483" data-name="MacBook Pro 16' - 4">
+      <div className="absolute h-[735px] left-[100px] top-[422px] w-[1060px]" data-node-id="2014:6181">
+        <div className="absolute inset-[-1.36%_-0.94%]">
+          <img alt="" className="block max-w-none size-full" src={imgGroup10} />
+        </div>
+      </div>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Geist_Pixel:Regular'] leading-none left-[1527px] not-italic text-[#f9f9f2] text-[128px] text-right top-[185px] w-[1201px]" data-node-id="2014:6143">
+        Your company will change
+      </p>
+      <div className="[word-break:break-word] absolute font-['Geist_Mono:Regular'] font-normal leading-[0] left-[416px] text-[#f9f9f2] text-[24px] top-[437px] w-[679px]" data-node-id="2014:6195">
+        <p className="mb-0">
+          <span className="leading-[1.4]">{`Someone will invent a `}</span>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">new process</span>
+          <span className="leading-[1.4]">.</span>
+        </p>
+        <p className="mb-0">
+          <span className="leading-[1.4]">{`Someone else will make a `}</span>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">spreadsheet</span>
+          <span className="leading-[1.4]">.</span>
+        </p>
+        <p className="mb-0">
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">Eventually</span>
+          <span className="leading-[1.4]">{` that spreadsheet will become `}</span>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">“critical infrastructure.”</span>
+        </p>
+        <p>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">Xynes</span>
+          <span className="leading-[1.4]">{` is built for this sort of `}</span>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">nonsense</span>
+          <span className="leading-[1.4]">.</span>
+        </p>
+      </div>
+      <div className="absolute h-[136.688px] left-[1219px] top-[791px] w-[307.956px]" data-node-id="2014:6205" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+      </div>
+    </div>
+  );
+}
+
+function CiAddPlusCircle({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[32px]"} data-node-id="2014:6127" data-name="ci:add-plus-circle">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCiAddPlusCircle} />
+    </div>
+  );
+}
+
+function MacBookPro163({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[#252525] h-[1117px] overflow-clip relative w-[1728px]"} data-node-id="2024:6459" data-name="MacBook Pro 16' - 3">
+      <div className="absolute contents left-[917px] top-[295px]" data-node-id="2014:6138">
+        <div className="absolute bg-[#444744] h-[278px] left-[917px] rounded-[41px] top-[695px] w-[266px]" data-node-id="2014:6113" />
+        <div className="absolute bg-[#444744] h-[278px] left-[1192px] rounded-[41px] top-[695px] w-[266px]" data-node-id="2014:6114" />
+        <div className="absolute bg-gradient-to-t from-[rgba(0,0,0,0)] h-[278px] left-[1192px] mix-blend-screen rounded-[41px] to-[#3c4e3d] top-[695px] w-[266px]" data-node-id="2014:6121" />
+        <div className="absolute flex h-[373.755px] items-center justify-center left-[1228px] top-[295px] w-[369.363px]" data-node-id="2014:6115">
+          <div className="flex-none rotate-30">
+            <div className="bg-[#444744] h-[278px] relative rounded-[41px] w-[266px]" />
+          </div>
+        </div>
+        <div className="absolute flex h-[373.755px] items-center justify-center left-[1228px] mix-blend-lighten top-[295px] w-[369.363px]" data-node-id="2014:6119">
+          <div className="flex-none rotate-30">
+            <div className="bg-gradient-to-b from-[rgba(128,128,128,0)] h-[278px] relative rounded-[41px] to-[#3c4e3d] w-[266px]" />
+          </div>
+        </div>
+        <div className="absolute flex h-[373.755px] items-center justify-center left-[1228px] mix-blend-screen top-[295px] w-[369.363px]" data-node-id="2014:6139">
+          <div className="flex-none rotate-30">
+            <div className="bg-gradient-to-b blur-[19.5px] from-[#252525] h-[278px] relative rounded-[41px] to-[#3c4e3d] w-[266px]" />
+          </div>
+        </div>
+        <div className="absolute bg-[#93b695] h-[9px] left-[1221px] top-[665px] w-[205px]" data-node-id="2014:6124" />
+        <div className="absolute left-[1309px] size-[41px] top-[649px]" data-node-id="2014:6128">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+        </div>
+        <CiAddPlusCircle className="absolute left-[1314px] size-[32px] top-[654px]" />
+        <div className="absolute contents left-[1433px] top-[538px]" data-node-id="2014:6135">
+          <div className="absolute left-[1433px] size-[80px] top-[538px]" data-node-id="2014:6134">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+          </div>
+          <div className="absolute left-[1468px] size-[79px] top-[575px]" data-node-id="2024:6458" data-name="dinkie-icons:cursor-arrow-filled">
+            <div className="absolute inset-[-1.79%_0_-10.13%_0]">
+              <img alt="" className="block max-w-none size-full" src={imgDinkieIconsCursorArrowFilled} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Geist_Pixel:Regular'] leading-none left-[131px] not-italic text-[#f9f9f2] text-[128px] top-[186px] w-[1466px]" data-node-id="2014:6112">
+        Add things when you need them
+      </p>
+      <div className="[word-break:break-word] absolute font-['Geist_Mono:Regular'] font-normal leading-[0] left-[131px] text-[#f9f9f2] text-[24px] top-[519px] w-[645px]" data-node-id="2014:6141">
+        <p className="mb-0">
+          <span className="leading-[1.4]">{`Most software wants you to buy `}</span>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">seventeen</span>
+          <span className="leading-[1.4]">{` things on Tuesday because you might need one of them in 2029.`}</span>
+        </p>
+        <p className="mb-0">
+          <span className="leading-[1.4]">{`We `}</span>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">{`don't.`}</span>
+        </p>
+        <p className="mb-0">
+          <span className="leading-[1.4]">{`Start with `}</span>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">one</span>
+          <span className="leading-[1.4]">{` module.`}</span>
+        </p>
+        <p>
+          <span className="leading-[1.4]">{`Add another when there's `}</span>
+          <span className="[word-break:break-word] font-['Geist_Mono:Bold'] font-bold leading-[1.4]">an actual reason</span>
+          <span className="leading-[1.4]">.</span>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function MacBookPro161({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[#252525] h-[1117px] overflow-clip relative w-[1728px]"} data-node-id="2024:6399" data-name="MacBook Pro 16' - 1">
+      <div className="absolute h-[47px] left-[138px] top-[117px] w-[104px]" data-node-id="2008:1780" data-name="xynes">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgXynes} />
+      </div>
+      <div className="absolute h-[85px] left-[1222px] top-[886px] w-[378px]" data-node-id="2010:1793" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[33px] items-start left-[136px] top-[325px] w-[1011px]" data-node-id="2012:6024" data-name="hero">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[55px] items-start leading-[0] relative shrink-0 w-full" data-node-id="2010:1792">
+          <div className="font-['Geist_Pixel:Regular'] grid-cols-[max-content] grid-rows-[max-content] inline-grid not-italic place-items-start relative shrink-0 text-[128px]" data-node-id="2014:6206">
+            <p className="col-1 leading-none ml-0 mt-0 relative row-1 text-[#f9f9f2] w-[1011px]" data-node-id="2008:1782">
+              Your business is weird
+            </p>
+            <p className="bg-clip-text bg-gradient-to-r blur-[25px] col-1 from-white leading-none mix-blend-overlay ml-0 mt-0 relative row-1 text-[transparent] to-[#ae00ff] w-[1011px]" data-node-id="2010:1789">
+              Your business is weird
+            </p>
+          </div>
+          <div className="font-['Geist_Mono:Regular'] font-normal relative shrink-0 text-[#f9f9f2] text-[20px] whitespace-nowrap" data-node-id="2010:1791">
+            <p className="leading-[1.5] mb-0">Good.</p>
+            <p className="leading-[1.5] mb-0">Your software should be able to cope.</p>
+            <p className="leading-[1.5]">Xynes is open-source, modular business software that grows with you.</p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[27px] items-center relative shrink-0" data-node-id="2012:6023" data-name="herro Buttons">
+          <div className="bg-[#0009ff] content-stretch flex items-center justify-center px-[10px] py-[5px] relative rounded-[5px] shrink-0" data-node-id="2011:6010" data-name="hero-button">
+            <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[24px] not-italic relative shrink-0 text-[#f9f9f2] text-[14px] whitespace-nowrap" data-node-id="2011:6009">
+              Explore
+            </p>
+          </div>
+          <div className="content-stretch flex items-center relative shrink-0" data-node-id="2012:6022" data-name="heo-button2">
+            <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Inter:Medium'] font-medium leading-[24px] not-italic relative shrink-0 text-[#f9f9f2] text-[14px] underline whitespace-nowrap" data-node-id="2012:6011">
+              See our code
+            </p>
+            <div className="relative shrink-0 size-[24px]" data-node-id="2024:6398" data-name="akar-icons:triangle-right-fill">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsTriangleRightFill} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function MacBookPro167() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="2024:6397" data-name="MacBook Pro 16' - 7">
+      <MacBookPro161 className="absolute bg-[#252525] h-[1117px] left-0 overflow-clip top-0 w-[1728px]" />
+      <div className="absolute bg-[#f9f9f2] h-[1117px] left-0 overflow-clip top-[1117px] w-[1728px]" data-node-id="2024:6418" data-name="MacBook Pro 16' - 2">
+        <p className="[word-break:break-word] absolute font-['Geist_Pixel:Regular'] leading-none left-[138px] not-italic text-[128px] text-black top-[161px] w-[1582px]" data-node-id="I2024:6418;2012:6026">
+          Start with the bit that actually exists
+        </p>
+        <div className="absolute bg-[#0009ff] left-[1071px] size-[83px] top-[356px]" data-node-id="I2024:6418;2017:6217" />
+        <div className="absolute contents left-[955px] mix-blend-multiply top-[439px]" data-node-id="I2024:6418;2033:532" data-name="bot">
+          <div className="absolute contents left-[955px] mix-blend-multiply top-[439px]" data-node-id="I2024:6418;2014:6067" data-name="bot">
+            <div className="absolute bg-[#f4f4fc] left-[955px] rounded-[468px] size-[936px] top-[439px]" data-node-id="I2024:6418;2012:6028" />
+            <div className="absolute left-[955px] mix-blend-multiply rounded-[468px] size-[936px] top-[439px]" data-node-id="I2024:6418;2014:6058" style={{ backgroundImage: "linear-gradient(183.1606265888417deg, rgba(244, 244, 252, 0.39) 27.411%, rgba(174, 174, 174, 0.39) 94.539%)" }} />
+            <div className="absolute left-[955px] mix-blend-darken rounded-[468px] size-[936px] top-[439px]" data-node-id="I2024:6418;2014:6060" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 936 936' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-8.597e-15 -46.8 46.8 -8.597e-15 468 468)'><stop stop-color='rgba(202,203,239,1)' offset='0'/><stop stop-color='rgba(244,244,252,1)' offset='1'/></radialGradient></defs></svg>\")" }} />
+            <div className="absolute h-[169px] left-[1154px] top-[596px] w-[165px]" data-node-id="I2024:6418;2012:6029">
+              <div className="absolute inset-[-1.18%_9.03%]">
+                <img alt="" className="block max-w-none size-full" src={imgRectangle3} />
+              </div>
+            </div>
+            <div className="absolute h-[169px] left-[1182px] top-[596px] w-[137px]" data-node-id="I2024:6418;2014:6035">
+              <div className="absolute inset-[6.36%_10.25%_-1.18%_8.48%]">
+                <img alt="" className="block max-w-none size-full" src={imgRectangle6} />
+              </div>
+            </div>
+            <div className="absolute h-[74.5px] left-[1198px] top-[690.5px] w-[94px]" data-node-id="I2024:6418;2014:6052">
+              <div className="absolute inset-[6.4%_0_0_4.12%]">
+                <img alt="" className="block max-w-none size-full" src={imgRectangle8} />
+              </div>
+            </div>
+            <div className="absolute h-[169px] left-[1182px] mix-blend-hard-light top-[596px] w-[137px]" data-node-id="I2024:6418;2014:6065">
+              <div className="absolute inset-[-23.22%_-26.24%_-30.77%_-28.02%]">
+                <img alt="" className="block max-w-none size-full" src={imgRectangle13} />
+              </div>
+            </div>
+            <div className="absolute h-[178px] left-[1342px] top-[617px] w-[162px]" data-node-id="I2024:6418;2012:6030">
+              <div className="absolute inset-[-1.12%_7.92%]">
+                <img alt="" className="block max-w-none size-full" src={imgRectangle4} />
+              </div>
+            </div>
+            <div className="absolute h-[178px] left-[1369px] top-[617px] w-[135px]" data-node-id="I2024:6418;2014:6037">
+              <div className="absolute inset-[6.62%_9.46%_-1.12%_6.77%]">
+                <img alt="" className="block max-w-none size-full" src={imgRectangle7} />
+              </div>
+            </div>
+            <div className="absolute h-[72.5px] left-[1383.5px] top-[722.5px] w-[96px]" data-node-id="I2024:6418;2014:6054">
+              <div className="absolute inset-[2.17%_0_0_1.63%]">
+                <img alt="" className="block max-w-none size-full" src={imgRectangle9} />
+              </div>
+            </div>
+            <div className="absolute h-[178px] left-[1369px] mix-blend-hard-light top-[617px] w-[135px]" data-node-id="I2024:6418;2014:6063">
+              <div className="absolute inset-[-21.47%_-27.58%_-29.21%_-30.26%]">
+                <img alt="" className="block max-w-none size-full" src={imgRectangle12} />
+              </div>
+            </div>
+          </div>
+          <ShaderEffect className="absolute left-[955px] mix-blend-multiply top-[439px]" data-node-id="I2024:6418;2021:6343" shaders={[{ setup: setupCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758, render: renderCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758, params: { algorithm: "Bayer 16x16", monoColor: { r: 1, g: 1, b: 1, a: 1 }, contrast: 0.8999999761581421, levels: 3, mono: false, brightness: 112, pixelSize: 2 }, manifest: manifestCodeComponentId_55a4ca852373c81b69803326c5af7aa5f1af580b_758 }]}>
+            <div className="contents relative" data-name="bot">
+              <div className="absolute bg-[#f4f4fc] left-[955px] rounded-[468px] size-[936px] top-[439px]" data-node-id="I2024:6418;2021:6344" />
+              <div className="absolute left-[955px] mix-blend-multiply rounded-[468px] size-[936px] top-[439px]" data-node-id="I2024:6418;2021:6345" style={{ backgroundImage: "linear-gradient(183.1606265888417deg, rgba(244, 244, 252, 0.39) 27.411%, rgba(174, 174, 174, 0.39) 94.539%)" }} />
+              <div className="absolute left-[955px] mix-blend-darken rounded-[468px] size-[936px] top-[439px]" data-node-id="I2024:6418;2021:6346" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 936 936' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-8.597e-15 -46.8 46.8 -8.597e-15 468 468)'><stop stop-color='rgba(202,203,239,1)' offset='0'/><stop stop-color='rgba(244,244,252,1)' offset='1'/></radialGradient></defs></svg>\")" }} />
+              <div className="absolute h-[169px] left-[1154px] top-[596px] w-[165px]" data-node-id="I2024:6418;2021:6347">
+                <div className="absolute inset-[-1.18%_9.03%]">
+                  <img alt="" className="block max-w-none size-full" src={imgRectangle3} />
+                </div>
+              </div>
+              <div className="absolute h-[169px] left-[1182px] top-[596px] w-[137px]" data-node-id="I2024:6418;2021:6348">
+                <div className="absolute inset-[6.36%_10.25%_-1.18%_8.48%]">
+                  <img alt="" className="block max-w-none size-full" src={imgRectangle6} />
+                </div>
+              </div>
+              <div className="absolute h-[74.5px] left-[1198px] top-[690.5px] w-[94px]" data-node-id="I2024:6418;2021:6349">
+                <div className="absolute inset-[6.4%_0_0_4.12%]">
+                  <img alt="" className="block max-w-none size-full" src={imgRectangle8} />
+                </div>
+              </div>
+              <div className="absolute h-[169px] left-[1182px] mix-blend-hard-light top-[596px] w-[137px]" data-node-id="I2024:6418;2021:6350">
+                <div className="absolute inset-[-23.22%_-26.24%_-30.77%_-28.02%]">
+                  <img alt="" className="block max-w-none size-full" src={imgRectangle13} />
+                </div>
+              </div>
+              <div className="absolute h-[178px] left-[1342px] top-[617px] w-[162px]" data-node-id="I2024:6418;2021:6351">
+                <div className="absolute inset-[-1.12%_7.92%]">
+                  <img alt="" className="block max-w-none size-full" src={imgRectangle4} />
+                </div>
+              </div>
+              <div className="absolute h-[178px] left-[1369px] top-[617px] w-[135px]" data-node-id="I2024:6418;2021:6352">
+                <div className="absolute inset-[6.62%_9.46%_-1.12%_6.77%]">
+                  <img alt="" className="block max-w-none size-full" src={imgRectangle7} />
+                </div>
+              </div>
+              <div className="absolute h-[72.5px] left-[1383.5px] top-[722.5px] w-[96px]" data-node-id="I2024:6418;2021:6353">
+                <div className="absolute inset-[2.17%_0_0_1.63%]">
+                  <img alt="" className="block max-w-none size-full" src={imgRectangle9} />
+                </div>
+              </div>
+              <div className="absolute h-[178px] left-[1369px] mix-blend-hard-light top-[617px] w-[135px]" data-node-id="I2024:6418;2021:6354">
+                <div className="absolute inset-[-21.47%_-27.58%_-29.21%_-30.26%]">
+                  <img alt="" className="block max-w-none size-full" src={imgRectangle12} />
+                </div>
+              </div>
+            </div>
+          </ShaderEffect>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[30px] items-start left-[146px] top-[532px] w-[614px]" data-node-id="I2024:6418;2014:6105">
+          <div className="content-stretch flex gap-[26px] items-center relative shrink-0" data-node-id="I2024:6418;2014:6078">
+            <div className="relative shrink-0 size-[38px]" data-node-id="I2024:6418;2014:6076" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+            </div>
+            <p className="[word-break:break-word] font-['Geist_Pixel:Regular'] leading-none not-italic relative shrink-0 text-[32px] text-black whitespace-nowrap" data-node-id="I2024:6418;2014:6077">
+              Xynes CMS
+            </p>
+          </div>
+          <div className="[word-break:break-word] font-['Geist_Mono:Regular'] font-[var(--sds-typography-body-font-weight-regular,400)] leading-[0] min-w-full relative shrink-0 text-[0px] text-black w-[min-content] whitespace-pre-wrap" data-node-id="I2024:6418;2014:6079">
+            <p className="font-normal leading-[1.4] mb-0 text-[20px]">Flexible content and data for websites, apps and internal tools.</p>
+            <p className="leading-[1.4] mb-0 text-[20px]">​</p>
+            <p className="font-normal leading-[1.4] mb-0 text-[20px]">API-first. Self-hostable. Extensible.</p>
+            <p className="font-normal leading-[1.4] mb-0 text-[20px]">No revolutionary synergy platform.</p>
+            <p className="leading-[1.4] mb-0 text-[20px]">​</p>
+            <p className="text-[20px]">
+              <span className="font-['Geist_Mono:Regular'] font-normal leading-[1.4]">{`Just a `}</span>
+              <span className="font-['Geist_Mono:Bold'] font-bold leading-[1.4]">good CMS.</span>
+            </p>
+          </div>
+          <div className="content-stretch flex items-center relative shrink-0" data-node-id="I2024:6418;2014:6100" data-name="heo-button2">
+            <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Inter:Medium'] font-medium leading-[24px] not-italic relative shrink-0 text-[14px] text-black underline whitespace-nowrap" data-node-id="I2024:6418;2014:6101">
+              Try Xynes CMS
+            </p>
+            <div className="relative shrink-0 size-[24px]" data-node-id="I2024:6418;2014:6102" data-name="akar-icons:triangle-right-fill">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAkarIconsTriangleRightFill1} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[720px] top-[964px]" data-node-id="I2024:6418;2014:6110">
+          <div className="absolute h-[82px] left-[720px] top-[964px] w-[287.5px]" data-node-id="I2024:6418;2014:6106">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle15} />
+          </div>
+          <p className="[word-break:break-word] absolute font-['Geist_Pixel:Square'] leading-[1.4] left-[calc(50%-77.5px)] not-italic text-[24px] text-white top-[988px] whitespace-nowrap" data-node-id="I2024:6418;2014:6107">
+            It’s actually free.
+          </p>
+        </div>
+      </div>
+      <MacBookPro163 className="absolute bg-[#252525] h-[1117px] left-0 overflow-clip top-[2234px] w-[1728px]" />
+      <MacBookPro164 className="absolute bg-[#0009ff] h-[1117px] left-0 overflow-clip top-[3351px] w-[1728px]" />
+      <MacBookPro165 className="absolute bg-[#a9acff] h-[1117px] left-0 overflow-clip top-[4468px] w-[1728px]" />
+      <MacBookPro166 className="absolute bg-[#252525] h-[1117px] left-0 overflow-clip top-[5585px] w-[1728px]" />
+    </div>
+  );
+}

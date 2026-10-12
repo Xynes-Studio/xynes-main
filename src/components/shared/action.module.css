@@ -1,0 +1,66 @@
+.action {
+  font-family: var(--font-geist-sans), sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 5px;
+  gap: 0;
+  min-height: 44px;
+  height: auto;
+  white-space: nowrap;
+  color: inherit;
+}
+.primary {
+  padding: 5px 10px;
+  color: #f9f9f2;
+  background: #0009ff;
+}
+.primary:hover {
+  background: #222aff;
+}
+.link {
+  padding: 5px 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  background: transparent;
+}
+.link:hover {
+  color: inherit;
+  background: transparent;
+  text-decoration-thickness: 2px;
+}
+.action:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 5px;
+  box-shadow: none;
+}
+.arrow {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url('/assets/AkarIconsTriangleRightFill.svg') center / 24px 24px
+    no-repeat;
+}
+:global([data-tone='light']) .arrow {
+  background-image: url('/assets/AkarIconsTriangleRightFill1.svg');
+}
+.pendingWrapper {
+  position: relative;
+  display: inline-block;
+}
+.pendingMessage {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 8px);
+  left: 0;
+  width: min(260px, 70vw);
+  background: #f9f9f2;
+  color: #252525;
+  border: 1px solid #252525;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: var(--font-geist-sans), sans-serif;
+  box-shadow: 0 4px 20px #0003;
+}
