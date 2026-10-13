@@ -1,0 +1,26 @@
+Xynes main website
+Copyright 2026 Xynes Studio and contributors.
+
+Authored software source, CSS, configuration, tests, and technical documentation
+are licensed under the Apache License, Version 2.0. See LICENSE.
+
+Xynes names, logos, original artwork, and company-specific marketing copy are
+excluded from that grant. See BRANDING.md for scope and limited source-fork and
+local-development permission. Third-party elements retain their own licenses.
+
+Geist Sans, Mono, and Pixel: Copyright (c) 2023 Vercel, in collaboration with
+basement.studio. SIL Open Font License 1.1; see licenses/geist-OFL-1.1.txt.
+
+Akar Icons: Copyright (c) 2020 Arturo Wibawa. MIT;
+see licenses/akar-icons-MIT.txt.
+
+Dinkie Icons: Copyright (c) 2021--2025 atelierAnchor. MIT;
+see licenses/dinkie-icons-MIT.txt.
+
+coolicons add-plus-circle: Kryston Schwarze, CC BY 4.0.
+Source: https://github.com/krystonschwarze/coolicons
+License: https://creativecommons.org/licenses/by/4.0/
+Adapted in the supplied Figma design through recoloring, sizing, and composition;
+included in modules.svg and the corresponding reference assets/renders.
+
+This NOTICE is informational and does not modify the Apache License.

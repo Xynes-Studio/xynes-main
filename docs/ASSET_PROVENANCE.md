@@ -1,6 +1,6 @@
 # Asset provenance
 
-Source: user's Figma file `mRyqlSSWwlYL0qOunWXdto`, requested frame `2024:6397`, inspected/exported on 2026-10-12. Download URLs were temporary and are not retained in application code or documentation. SVG contents are unchanged. Final distribution rights are a publication review item; no new license has been invented for the user's artwork.
+Source: user's Figma file `mRyqlSSWwlYL0qOunWXdto`, requested frame `2024:6397`, inspected/exported on 2026-10-12. Download URLs were temporary and are not retained in application code or documentation. SVG contents are unchanged. Publication authorized on 2026-10-13. Original Xynes assets are separately reserved under [BRANDING.md](../BRANDING.md), with limited source-fork and local-development permission. Embedded fonts and icons retain their upstream licenses; see [third-party notices](../THIRD_PARTY_NOTICES.md). Application code is Apache-2.0 licensed.
 
 | Local asset                     | Design slot / original node                       | Dimensions        | Treatment                                                                                                 |
 | ------------------------------- | ------------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------------------------- |

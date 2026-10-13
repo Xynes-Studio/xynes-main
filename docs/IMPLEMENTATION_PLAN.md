@@ -1,6 +1,6 @@
 # Xynes homepage implementation plan
 
-Prepared 2026-10-12. Scope: local implementation only. Repository publication is explicitly pending user authorization.
+Prepared 2026-10-12 for local implementation. Updated 2026-10-13: the user authorized public source publication at `Xynes-Studio/xynes-main`, Apache-2.0 code with separately reserved branding, and `main` / `develop` / `qa` branches. Deployment remains pending.
 
 ## Discovery
 
@@ -31,7 +31,7 @@ Desktop layout uses normal document flow with six independent sections; scale se
 5. Adapt 320/375/768/1024/1440/1728/1920 widths. Verify heading wrapping, artwork geometry, scrolling, focus visibility, reduced motion, and link semantics.
 6. Add metadata; production origin is optional/configurable. Emit sitemap/canonical only for a configured valid origin. Add meaningful Vitest/RTL tests for composition and CTA behavior, Playwright checks for links, keyboard use, viewport constraints, browser errors and axe.
 7. Run strict typecheck, lint, Prettier, unit/integration coverage (90% all metrics), build, E2E and Lighthouse. Visually compare full-page and section screenshots with Figma at 1728px and responsive screenshots. Fix observed issues; record actual results.
-8. Finish architecture, design decisions, asset provenance, README and CI. Provide local preview and explicit outstanding items. No remote creation, publication, push or deployment.
+8. Finish architecture, design decisions, asset provenance, README and CI. Provide local preview and explicit outstanding items. Public repository creation and push are authorized in the subsequent publication step; website deployment remains pending.
 
 ## Quality and completion
 

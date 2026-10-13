@@ -1,6 +1,6 @@
 # Quality and completion report
 
-Measured locally on 2026-10-12. Scope: local Xynes homepage; publication explicitly deferred by the user.
+Application gates measured locally on 2026-10-12. Public source publication authorized on 2026-10-13; website deployment remains pending.
 
 ## Result
 
@@ -8,22 +8,22 @@ All six sections are implemented as independent components with original Figma c
 
 ## Measured gates
 
-| Gate                    | Result   | Evidence                                                                                                                                     |
-| ----------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Frozen pnpm install     | PASS     | pnpm 10.33.0; committed lockfile; build scripts limited to esbuild                                                                           |
-| Strict TypeScript       | PASS     | `pnpm typecheck`; application and test source included                                                                                       |
-| ESLint                  | PASS     | `pnpm lint`, no errors or warnings                                                                                                           |
-| Prettier                | PASS     | `pnpm format:check`                                                                                                                          |
-| Unit/integration tests  | PASS     | 20 tests in 4 files                                                                                                                          |
-| Coverage                | PASS     | Statements 100% (38/38), branches 100% (22/22), functions 100% (17/17), lines 100% (34/34)                                                   |
-| Production build        | PASS     | Next 16.4.0 webpack; homepage, icon, robots and sitemap statically generated                                                                 |
-| Production E2E          | PASS     | 13 Playwright tests, installed Google Chrome                                                                                                 |
-| Automated accessibility | PASS     | Zero axe violations for WCAG 2 A/AA, 2.1 AA and 2.2 AA tags across seven widths                                                              |
-| Keyboard behavior       | PASS     | Skip navigation; pending CTA activation/toggle/Escape; focus retained; reduced-motion checks; additional in-app browser keyboard walkthrough |
-| Mobile Lighthouse       | PASS     | Performance 93; accessibility 100; best practices 100; SEO 100                                                                               |
-| Desktop Lighthouse      | PASS     | Performance 99; accessibility 100; best practices 100; SEO 100                                                                               |
-| Asset integrity         | PASS     | Original local files non-empty; all rendered illustrations load; original fractional aspect ratios checked                                   |
-| CI configuration        | PREPARED | Pinned official actions and remote-verified Lumia revision; no GitHub workflow run because publication is pending                            |
+| Gate                    | Result   | Evidence                                                                                                                                                 |
+| ----------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Frozen pnpm install     | PASS     | pnpm 10.33.0; committed lockfile; build scripts limited to esbuild                                                                                       |
+| Strict TypeScript       | PASS     | `pnpm typecheck`; application and test source included                                                                                                   |
+| ESLint                  | PASS     | `pnpm lint`, no errors or warnings                                                                                                                       |
+| Prettier                | PASS     | `pnpm format:check`                                                                                                                                      |
+| Unit/integration tests  | PASS     | 20 tests in 4 files                                                                                                                                      |
+| Coverage                | PASS     | Statements 100% (38/38), branches 100% (22/22), functions 100% (17/17), lines 100% (34/34)                                                               |
+| Production build        | PASS     | Next 16.4.0 webpack; homepage, icon, robots and sitemap statically generated                                                                             |
+| Production E2E          | PASS     | 13 Playwright tests, installed Google Chrome                                                                                                             |
+| Automated accessibility | PASS     | Zero axe violations for WCAG 2 A/AA, 2.1 AA and 2.2 AA tags across seven widths                                                                          |
+| Keyboard behavior       | PASS     | Skip navigation; pending CTA activation/toggle/Escape; focus retained; reduced-motion checks; additional in-app browser keyboard walkthrough             |
+| Mobile Lighthouse       | PASS     | Performance 93; accessibility 100; best practices 100; SEO 100                                                                                           |
+| Desktop Lighthouse      | PASS     | Performance 99; accessibility 100; best practices 100; SEO 100                                                                                           |
+| Asset integrity         | PASS     | Original local files non-empty; all rendered illustrations load; original fractional aspect ratios checked                                               |
+| CI configuration        | PREPARED | Pinned official actions and remote-verified Lumia revision; live runs are listed in [GitHub Actions](https://github.com/Xynes-Studio/xynes-main/actions) |
 
 Validation runtime: bundled Node 24.19.0, pnpm 10.33.0, Vitest 4.1.11/Vite 7.3.6, Playwright 1.64.0, Chrome 154, Lighthouse 13.5.0, on this Mac. The shell also has an older Node 20.15.0; final production build/type/coverage/lint checks use the supported Node 24 runtime. README requires Node 22.19+ and records Node 24 in `.node-version`.
 
@@ -65,21 +65,21 @@ Known differences:
 
 ## Story completion
 
-| Story                                   | Status   | Acceptance evidence                                                                            |
-| --------------------------------------- | -------- | ---------------------------------------------------------------------------------------------- |
-| HM-00 Discovery                         | Complete | MCP design context/screenshot/hierarchy, PDF review, Lumia inspection                          |
-| HM-01 Planning                          | Complete | Plan, stories and continuation prompt authored before application implementation               |
-| HM-02 Foundation                        | Complete | Frozen install, strict checks, local fonts/Lumia links, production build                       |
-| HM-03 Shared layout/actions             | Complete | Native anchors, Brand/Flex/Button composition, skip link, pending behavior tests               |
-| HM-04 Hero/CMS                          | Complete | Original layers/copy, asset checks, reference-width screenshots                                |
-| HM-05 Modularity/adaptability           | Complete | Original SVGs/emphasis, ratio/loading and responsive checks                                    |
-| HM-06 Open source/roadmap               | Complete | Exact shader composite, original SVG callouts/gradient and destination behavior                |
-| HM-07 Responsive/a11y                   | Complete | Seven widths, four additional heights, axe, keyboard and reduced motion                        |
-| HM-08 SEO/performance/motion boundaries | Complete | Metadata routes, measured 93/99 performance, animation architecture documented                 |
-| HM-09 Local handoff                     | Complete | README, CI, source/asset provenance and measured evidence; publication out of authorized scope |
+| Story                                   | Status   | Acceptance evidence                                                                                               |
+| --------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------- |
+| HM-00 Discovery                         | Complete | MCP design context/screenshot/hierarchy, PDF review, Lumia inspection                                             |
+| HM-01 Planning                          | Complete | Plan, stories and continuation prompt authored before application implementation                                  |
+| HM-02 Foundation                        | Complete | Frozen install, strict checks, local fonts/Lumia links, production build                                          |
+| HM-03 Shared layout/actions             | Complete | Native anchors, Brand/Flex/Button composition, skip link, pending behavior tests                                  |
+| HM-04 Hero/CMS                          | Complete | Original layers/copy, asset checks, reference-width screenshots                                                   |
+| HM-05 Modularity/adaptability           | Complete | Original SVGs/emphasis, ratio/loading and responsive checks                                                       |
+| HM-06 Open source/roadmap               | Complete | Exact shader composite, original SVG callouts/gradient and destination behavior                                   |
+| HM-07 Responsive/a11y                   | Complete | Seven widths, four additional heights, axe, keyboard and reduced motion                                           |
+| HM-08 SEO/performance/motion boundaries | Complete | Metadata routes, measured 93/99 performance, animation architecture documented                                    |
+| HM-09 Local handoff                     | Complete | README, CI, source/asset provenance and measured evidence; subsequent source publication authorized on 2026-10-13 |
 
 ## Remaining configuration and future work
 
-CMS, contact and hosted destinations need confirmed URLs. A specific roadmap URL and confirmed production `SITE_URL` can replace organization/default-pending configuration. Public source/asset licensing, repository creation, push/deployment and a real GitHub CI run remain publication-stage work. No remote repository or deployment was created.
+CMS, contact and hosted destinations need confirmed URLs. A specific roadmap URL and confirmed production `SITE_URL` can replace organization/default-pending configuration. The code is Apache-2.0 licensed, with separately reserved Xynes branding and third-party attribution notices. Source publication uses `Xynes-Studio/xynes-main`, with `main` (default), `develop`, and `qa`. Live remote checks are recorded in GitHub Actions, separately from these local measurements. No website deployment is authorized or performed. Accessible Coolicons attribution must accompany a future deployed site.
 
 Next warns that React 18 support is deprecated. React 18.3.1 currently respects Lumia's declared peers and passes the build; a focused Lumia React 19 compatibility change is required before moving this app to React 19/Next 17. Future GSAP section adapters and service integrations can follow ARCHITECTURE.md without replacing presentation components.

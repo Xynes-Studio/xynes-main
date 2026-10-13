@@ -24,7 +24,7 @@ The user subsequently required viewport-height sections. Sections now have a vie
 
 ## Pending destinations and publication
 
-The user explicitly chose local implementation and publication pending. No GitHub repository, push, deployment or remote publication has occurred. CMS, hosted-service and contact destinations were not supplied; their buttons give clear pending feedback and accessible names. The original visible labels remain. Code and roadmap links use the known Xynes-Studio GitHub organization until a specific roadmap destination is provided. SITE_URL and source/asset licensing decisions for public release remain configuration/release decisions.
+The user authorized public source publication on 2026-10-13 at `Xynes-Studio/xynes-main`, with `main`, `develop`, and `qa` branches. The code is Apache-2.0 licensed; Xynes branding, original artwork, and company copy are separately reserved in BRANDING.md. Website deployment remains pending. CMS, hosted-service and contact destinations were not supplied; their buttons give clear pending feedback and accessible names. The original visible labels remain. Code and roadmap links use the known Xynes-Studio GitHub organization until a specific roadmap destination is provided. A confirmed production SITE_URL and accessible third-party artwork credits remain deployment configuration tasks.
 
 ## Runtime compatibility
 

@@ -1,6 +1,6 @@
 # Implementation stories
 
-HM-00 through HM-09 are complete for the authorized local scope. Publication remains pending. All priorities below are P0 except HM-08 (P1). Execute in order; status is updated with measured evidence in `QUALITY_REPORT.md`.
+HM-00 through HM-09 are complete for the authorized local scope. Public source publication was authorized on 2026-10-13; website deployment remains pending. All priorities below are P0 except HM-08 (P1). Execute in order; status is updated with measured evidence in `QUALITY_REPORT.md`.
 
 ## HM-00 — Discover source design and local ecosystem
 
@@ -90,4 +90,10 @@ HM-00 through HM-09 are complete for the authorized local scope. Publication rem
 - Dependencies: HM-08.
 - Acceptance: strict type/lint/format, tests, 90% coverage all metrics, E2E, build pass; actual visual/quality report exists.
 - Tests: run configured gates, inspect per-file coverage and screenshots.
-- Done: local result reviewable; incomplete gates explicitly listed; publication remains pending.
+- Done: local result reviewable; incomplete gates explicitly listed; source publication is tracked separately below.
+
+## HM-10 — Public source repository
+
+- Scope: publish `Xynes-Studio/xynes-main` as public source with `main`, `develop`, and `qa`; deployment remains pending.
+- License: Apache-2.0 application code; separately reserved Xynes branding, original artwork, and company copy; preserve third-party notices.
+- Validation: verified required Git identity and GitHub account, reviewed publication files, formatting checks, remote branch/default/visibility verification, and live GitHub Actions results.
